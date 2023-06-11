@@ -256,7 +256,7 @@ int main()
 
     RCCHECK(rclc_support_init(&support, 0, NULL, &allocator));
 
-    RCCHECK(rclc_node_init_default(&node, "pico_node", "", &support));
+    RCCHECK(rclc_node_init_default(&node, "pico_right_node", "", &support));
 
 	// create publisher_ang_vel
     RCCHECK(rclc_publisher_init_default(
